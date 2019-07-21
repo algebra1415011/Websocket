@@ -9,6 +9,6 @@ import (
 func StartcronJob(server *server.Server,msg string){
 	cronJob := cron.New()
 	fmt.Println("cron job is running ")
-	cronJob.AddFunc("*/5 * * * * *", func() {  server.PingConnectedClient(msg) })	
+	cronJob.AddFunc("*/30 * * * * *", func() {  server.PingConnectedClient(msg) })	
 	cronJob.Start()
 }
