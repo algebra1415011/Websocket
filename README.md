@@ -12,8 +12,8 @@ steps required to run the server
 5. client : In this module we have index.html which when run the sends the websocket connection request to the server (localhost).
 6. github.com and golang.org are libraries that are needed for websocket connection.
 -----------------------------------------------------------------------------------------------------------------------------------------------
-steps for execution:
-1.just run the command "go run main.go". It will start the server at localhost port 8080 and also start the cronjob that executes after every 
+#steps for execution:
+1. just run the command "go run main.go". It will start the server at localhost port 8080 and also start the cronjob that executes after every 
 30 sec.
 2. open the index.html file in browser and open any number of tabs we want the websocket connection to be created. It will created that number of websocket connection.
 3. IF we want to know the number of active clients than we use "http://localhost:8080/activeclient"
