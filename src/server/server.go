@@ -20,7 +20,7 @@ var upgrader = websocket.Upgrader{
 }
 // pingConnectedClient put the message on broadcast channel then a function handleMessages will invoke everytime that will Send the message to all connected client
 func (s *Server)PingConnectedClient(msg string){
-	fmt.Println("Server pings after every 5 sec")
+	fmt.Println("Server pings after every 30 sec")
 	s.Broadcast <- msg
 }
 
