@@ -29,9 +29,4 @@ func main() {
 	routes.SetupRoutes(&servertemp)
 	
 	
-	
-	// cronJob := cron.New()
-	// cronJob.AddFunc("*/30 * * * * *", func() {  server.pingConnectedClient() })	
-	// cronJob.Start()
-	
 }
