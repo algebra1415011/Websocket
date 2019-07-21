@@ -17,4 +17,4 @@ steps required to run the server
 30 sec.
 2. open the index.html file in browser and open any number of tabs we want the websocket connection to be created. It will created that number of websocket connection.
 3. IF we want to know the number of active clients than we use "http://localhost:8080/activeclient"
-4. Every output is taken as logs in the terminal itself.
+4. Every output is taken as logs in the terminal itself
